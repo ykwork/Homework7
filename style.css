@@ -26,14 +26,14 @@ body  {
 	border: 1px solid #000000;
 	text-align: left;
 }
-.lgp #header {
+.lgp,.header {
 	height:120px;
 	float:left;
 	width:100%;
 	margin-bottom:40px;
 
 }
-.lgp #header h1 {
+.lgp,.header h1 {
 	margin: 0;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -44,37 +44,37 @@ body  {
 	padding-left: 0;
 
 }
-#sidebar1 a {
+.sidebar1 a {
 color:#000;
 }
-#sidebar1 a:hover {
+.sidebar1 a:hover {
 text-decoration:underline;
 font-size:14px;
 }
-.lgp #sidebar1 {
+.lgp {
 	float: left;
 	width: 200px;
 	padding: 15px 10px 15px 20px;
 }
-.lgp #sidebar1 ul  {
+.lg, .sidebar1 ul  {
 	margin: 0px;
 	padding-left: 20px;
 	line-height: 150%;
 }
-.lgp #sidebar1 ul  li {
+.lgp,.sidebar1 ul  li {
 margin:10px 0;
 }
-.lgp #sidebar1 ul  li a {
+.lgp,.sidebar1 ul  li a {
 	color:#000;
 	font-size:13px;
 	text-decoration:none;
 }
-.lgp #sidebar1 ul  li a:hover {
+.lgp, .sidebar1 ul  li a:hover {
 	color:#000;
 	/* font-size:14px; */
 	text-decoration:underline;
 }
-.lgp #mainContent {
+.lgp main {
 	width:680px;
 	padding: 0 20px;
 	float:right;
